@@ -17,7 +17,7 @@ The **NSJSONSerialization** class makes working with JSON easier in Objective-C.
 ### Bitly Example
 Bitly is a good example of a web service that I like to use as a demonstration because it is pretty simple and provides a very clear function. 
 Bitly will take a long URL (the string that you type into a web browser) and turn it into a short URL that is easier to type. 
-I am going to use the bitly web service to showcase the NSURLConnection class.
+I am going to use the bitly web service to showcase the **NSURLConnection** class.
 
 *Note: To follow along with this recipe, you will need to create a free account with bit.ly and get your own API key and API username. 
 Go to https://bit.ly to get your account if you wish to follow along with this example.  
