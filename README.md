@@ -69,6 +69,8 @@ You need an **NSError** object here as well as the **NSData** object supplied by
          NSError *e = nil;
          NSDictionary *bitlyJSON = [NSJSONSerialization JSONObjectWithData:data options:0 error:&e];
      }] resume];
+     
+     sleep(60);
 
 This gives you all the JSON data organized in an **NSDictionary** collection. 
 This dictionary can have other dictionaries, arrays, numbers, and strings located inside it. 
@@ -89,6 +91,8 @@ You also need to test for errors here.
          } else
              NSLog(@"There was an error parsing the JSON");
      }] resume];
+     
+     sleep(60);
 
 Once this is all set up, if you run your app, 
 you will have retrieved the **shortURL** from the response and printed the following out to your console log:
